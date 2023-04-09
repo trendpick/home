@@ -1,4 +1,8 @@
-.logo{
-    height: 40px !important;
+.logo {
+  height: 40px !important;
 }
 
+.wrapper-col {
+  display: flex;
+  flex-direction: column;
+}
