@@ -5,4 +5,25 @@
 .wrapper-col {
   display: flex;
   flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1199px) {
+    .wrapper-col {
+       width:auto;
+       padding: 40px;
+      }
+}
+
+@media all and (max-width: 980px) {
+    .wrapper-col {
+       padding: 30px;
+      }
+}
+
+@media all and (max-width: 640px) {
+    .wrapper-col {
+       padding: 20px;
+      }
 }

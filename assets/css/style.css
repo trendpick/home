@@ -1266,9 +1266,9 @@ h3 span {
   color: #fff;
 }
 .ready p {
-  margin-top: 16px;
+  margin-top: 12px;
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 1.6;
   word-break: keep-all;
@@ -1278,8 +1278,9 @@ h3 span {
   position: relative;
   display: inline-block;
   height: 62px;
-  padding: 11px 78px 11px 67px;
-  margin-top: 8px;
+  width: 200px;
+  padding: 11px 50px;
+  margin-top: 30px;
   font-size: 18px;
   text-align: left;
 }
@@ -1296,7 +1297,7 @@ h3 span {
   color: #333;
 }
 .ready a:hover:after {
-  background-image: url(../images/ico/ico_btn_arr_on.svg);
+  background-image: url(../images/icon/arrow_up_right_black.svg);
 }
 
 /************** 메인 페이지 반응형 **************/
@@ -1843,13 +1844,6 @@ h3 span {
     font-size: 20px;
   }
 
-  /* s: 20220914 추가 : 이상한마케팅은 특이합니다. */
-  /* .about_isanghan {padding:160px 0 27px;}
-	.about_isanghan ol li {padding-left:20px; font-size:20px; line-height:1.8;}
-	.about_isanghan ol li + li {margin-top:3px;}
-	.about_isanghan .img {width:calc(100% - 30px);} */
-  /* e: 20220914 추가 : 이상한마케팅은 특이합니다. */
-
   .business_entity .fix_txtwrap ul li .btn_wrap {
     margin-top: 30px;
   }
@@ -2298,6 +2292,7 @@ h3 span {
   }
   .ready a {
     height: 100%;
+    width:150px;
     margin-top: 32px;
     padding: 6px 30px;
     font-size: 14px;
