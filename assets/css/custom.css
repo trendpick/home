@@ -59,6 +59,7 @@
   flex-grow: 1;
   font-size: 20px;
   line-height: 32px;
+  word-break: keep-all;
 }
 
 .greeting h3 {
